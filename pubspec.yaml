@@ -9,11 +9,10 @@ environment:
 
 dev_dependencies:
   pedantic: '>=1.4.0 <3.0.0' # dart.dev
-  tekartik_travis_ci_flutter: # TODO: review branch dart2
+  tekartik_travis_ci_flutter: # TODO: review 83a30d52752e616c1a9aef9e90482358809caae9
     git:
       url: git://github.com/KomodoPlatform/travis_ci_flutter.dart
-      ref: dart2
-    version: '>=0.1.0'
+      ref: 83a30d52752e616c1a9aef9e90482358809caae9
   process_run: # 0.10.8 - TODO: secure code review 129f744d0b9b6e71cd78cd8207abda0e33c01570 (0.10.8)
     git:
       url: git://github.com/KomodoPlatform/process_run.dart.git
